@@ -22,7 +22,7 @@ jobs:
         python-version: "3.11"
     - name: Install dependencies
       run: pip install -r src/requirements.txt
-    - name: Check linthin
+    - name: Check linthing
       working-directory: src
       run: ruff check .
     - name: Test with pytest
