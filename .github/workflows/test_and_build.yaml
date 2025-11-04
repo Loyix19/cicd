@@ -38,5 +38,5 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v6
       with:
-          push: true
-          tags: ghcr.io/Loyix19/cicd:latest
+        push: true
+        tags: ghcr.io/Loyix19/cicd:latest
